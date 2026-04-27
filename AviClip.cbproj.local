@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.852,P:\CcpProg\AviClip\26_03_28\AviClip.cbproj=P:\CcpProg\AviClip.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.584,P:\CcpProg\main.cpp=P:\CcpProg\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.837,P:\CcpProg\AviClip\26_03_28\main.cpp=P:\CcpProg\main.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.584,P:\CcpProg\main.dfm=P:\CcpProg\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.827,P:\CcpProg\AviClip\26_03_28\AviClipPCH2.h=P:\CcpProg\AviClipPCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.130,=P:\CcpProg\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.129,P:\CcpProg\AviClipPCH1.h=P:\CcpProg\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.584,P:\CcpProg\main.h=P:\CcpProg\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.372,=P:\CcpProg\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.837,P:\CcpProg\AviClip\26_03_28\main.dfm=P:\CcpProg\main.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.837,P:\CcpProg\AviClip\26_03_28\main.h=P:\CcpProg\main.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.129,P:\CcpProg\AviClip.cbproj=P:\CcpProg\Project1.cbproj</Transaction>
+  </Transactions>
+</BorlandProject>
