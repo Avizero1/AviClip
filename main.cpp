@@ -7,7 +7,7 @@
 TFRM *FRM;
 TStringList *FCFG=new TStringList;
 AnsiString cfg, fe="AviClip.exe";
-bool ClipReading = false, EditSGS=false, VisibleAPP;
+bool EditSGS=false, VisibleAPP;
 //======================================================================================
 //==========Мои функции
 //Проверка повторного запуска
@@ -80,8 +80,7 @@ void SaveToFile()
 //Отслеживание изменения буфера обмена и запись в StringGrid-History
 void __fastcall TFRM::WMDrawClipboard(TWMDrawClipboard &Msg)
 	{ if (PAUSPLAY->ImageIndex==0)
-			{ ClipReading = true;
-				try	{	AnsiString clipboard=ClipBoardRead();
+			{  try	{	AnsiString clipboard=ClipBoardRead();
 							if (clipboard=="0" || clipboard=="\r\n") {clipboard="";}
 							for (unsigned int i=0; i <=(unsigned)SGHISTORY->RowCount ; i++)
 								{if (SGHISTORY->Cells[0][i]==clipboard)
@@ -91,7 +90,6 @@ void __fastcall TFRM::WMDrawClipboard(TWMDrawClipboard &Msg)
 									{ SGHISTORY->RowCount++;sdwig(SGHISTORY->RowCount, SGHISTORY);}
 								SGHISTORY->Cells[0][0] = clipboard;
 						} catch (...){}
-				ClipReading = false;
 			}
 	}
 //======================================================================================
